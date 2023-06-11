@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import ContentSection2 from "@/components/ContentSection2";
 import CreateContent from "@/components/CreateContent";
+import Mixed from "@/components/Mixed";
 import Tools from "@/components/Tools";
 import Wrapper from "@/components/Wrapper";
 
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Banner></Banner>
-      <Wrapper className="my-8 lg:my-20">
+      <Wrapper className="my-8 lg:my-[88px]">
         <div>
           <div className="text-center">
             <h1 className="text-[16px] lg:text-[24px] leading-7 lg:leading-[34px] font-outfit">
@@ -199,6 +200,7 @@ export default function Home() {
       <CreateContent></CreateContent>
       <ContentSection2></ContentSection2>
       <Tools></Tools>
+      <Mixed></Mixed>
     </main>
   );
 }
